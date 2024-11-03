@@ -72,23 +72,23 @@ $('.owl-carousel').owlCarousel({
 
 //--------------------loading------------------
 
-// window.addEventListener('scroll', () => {
-//     const nav = document.getElementById('navbar');
-//     if (window.scrollY > 700) { 
-//         nav.classList.add('scrolled');
-//     } else {
-//         nav.classList.remove('scrolled');
-//     }
-// });
+window.addEventListener('scroll', () => {
+    const nav = document.getElementById('navbar');
+    if (window.scrollY > 700) { 
+        nav.classList.add('scrolled');
+    } else {
+        nav.classList.remove('scrolled');
+    }
+});
 
-// window.addEventListener("load", () => {
-//     const loader = document.querySelector(".loader") ;
-//     loader.classList.add("loader-hidden");
-//     loader.addEventListener( "transitionend",() => {
-//         document.body.removeChild("loader");
-//     }
+window.addEventListener("load", () => {
+    const loader = document.querySelector(".loader") ;
+    loader.classList.add("loader-hidden");
+    loader.addEventListener( "transitionend",() => {
+        document.body.removeChild("loader");
+    }
 
-//     )
-// }
-// )
+    )
+}
+)
 //--------------------loading------------------
